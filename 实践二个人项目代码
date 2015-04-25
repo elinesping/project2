@@ -1,0 +1,22 @@
+
+public class Calculator {  
+	private static int result; // 静态变量，用于存储运行结果
+	public void add(int n) {    //加
+		result = result + n; 
+	}
+public void substract(int n) {//减
+	result = result - n;  
+	}   
+public void multiply(int n) { //乘
+	result=result*n;
+    }
+public void divide(int n) { //除 
+		result = result / n; 
+	}   
+public void clear() { // 将结果清零  
+	result = 0; 
+	} 
+public int getResult() {  
+	return result;  
+	}  
+}  
